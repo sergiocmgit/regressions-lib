@@ -1,4 +1,4 @@
-package com.scmoreno.regression
+package com.scmoreno.regression.simple
 
 import org.jetbrains.kotlinx.multik.api.mk
 import org.jetbrains.kotlinx.multik.api.ndarray

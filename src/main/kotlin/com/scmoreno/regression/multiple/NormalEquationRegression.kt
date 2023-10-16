@@ -1,4 +1,4 @@
-package com.scmoreno.regression
+package com.scmoreno.regression.multiple
 
 import org.jetbrains.kotlinx.multik.api.linalg.dot
 import org.jetbrains.kotlinx.multik.api.linalg.inv

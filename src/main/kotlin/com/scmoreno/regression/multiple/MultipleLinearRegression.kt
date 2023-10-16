@@ -1,4 +1,4 @@
-package com.scmoreno.regression
+package com.scmoreno.regression.multiple
 
 abstract class MultipleLinearRegression {
 

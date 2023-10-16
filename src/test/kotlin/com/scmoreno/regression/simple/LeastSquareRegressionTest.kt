@@ -1,4 +1,4 @@
-package com.scmoreno.regression
+package com.scmoreno.regression.simple
 
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.DynamicTest.dynamicTest
