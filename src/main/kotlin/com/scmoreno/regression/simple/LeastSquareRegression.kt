@@ -6,11 +6,11 @@ import org.jetbrains.kotlinx.multik.ndarray.operations.times
 
 class LeastSquareRegression : SimpleLinearRegression() {
 
-    override fun train(features: DoubleArray, target: DoubleArray) {
+    override fun train(features: DoubleArray, targets: DoubleArray) {
         val numberOfSamples = features.size
 
         val xArray = mk.ndarray(features)
-        val yArray = mk.ndarray(target)
+        val yArray = mk.ndarray(targets)
 
         val meanX = mk.stat.mean(xArray)
         val meanY = mk.stat.mean(yArray)
